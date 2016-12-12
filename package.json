@@ -1,21 +1,31 @@
 {
-  "name": "lisk-dice",
-  "version": "0.1",
-  "description": "a dice game for lisk, shift and ark",
-  "main": "diceserver.js",
-  "dependencies": {
-    "bcrypt-nodejs": "0.0.3",
-    "bitcore-mnemonic": "^1.1.1",
-    "body-parser": "^1.15.2",
-    "bower": "^1.7.9",
-    "colors": "^1.1.2",
-    "compression": "^1.6.2",
-    "express": "^4.14.0",
-    "jsonwebtoken": "^7.1.9",
-    "mongoose": "^4.6.4",
-    "morgan": "^1.7.0",
-    "request": "^2.75.0",
-    "serve-static": "^1.11.1",
-    "waterfall-ya": "^0.7.2"
-  }
+    "name": "lisk-dice",
+    "version": "1.0.0",
+    "description": "A dice game for Lisk, SHIFT and Ark",
+    "main": "diceserver.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/densmirnov/lisk-dice.git"
+    },
+    "author": "Davide Gessa",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/densmirnov/lisk-dice/issues"
+    },
+    "homepage": "https://github.com/densmirnov/lisk-dice#readme",
+    "dependencies": {
+        "bcrypt-nodejs": "0.0.3",
+        "bitcore-mnemonic": "^1.1.1",
+        "body-parser": "^1.15.2",
+        "bower": "^1.7.9",
+        "colors": "^1.1.2",
+        "compression": "^1.6.2",
+        "express": "^4.14.0",
+        "jsonwebtoken": "^7.1.9",
+        "mongoose": "^4.6.4",
+        "morgan": "^1.7.0",
+        "request": "^2.75.0",
+        "serve-static": "^1.11.1",
+        "waterfall-ya": "^0.7.2"
+    }
 }
